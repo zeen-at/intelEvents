@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .heroBg {
+    @apply bg-gradient-to-r from-cyan-500 to-blue-500;
+  }
+}
