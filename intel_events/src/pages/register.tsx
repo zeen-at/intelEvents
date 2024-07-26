@@ -36,7 +36,7 @@ const Register = () => {
 
   return (
     <div className="h-screen flex items-center">
-      <div className="w-full md:w-2/5 py-10 px-20 text-slate-700 flex flex-col gap-8 md:gap-10">
+      <div className="w-full lg:w-2/5 py-10 px-20 text-slate-700 flex flex-col gap-8 md:gap-10">
         <Link to="/">
           <div className="flex items-center">
             <img
@@ -97,7 +97,7 @@ const Register = () => {
       <img
         src="./registerBg.jpg"
         alt="registerBg_img"
-        className="hidden md:block w-3/5 h-[100vh] object-cover"
+        className="hidden lg:block w-3/5 h-[100vh] object-cover"
       />
     </div>
   );

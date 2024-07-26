@@ -16,23 +16,23 @@ const Navigation = () => {
           </h1>
         </div>
       </Link>
-      <div className="block md:hidden">
+      <div className="block lg:hidden">
         <button>
           <RiMenuFill />
         </button>
       </div>
-      <div className="hidden md:block">
-        <ul className="flex space-x-10 text-slate-500 items-center  hover:text-orange-700">
-          <li className="hover:text-orange-700">
+      <div className="hidden lg:block">
+        <ul className="flex space-x-10 text-slate-500 items-center  ">
+          <li className="">
             <Link to="#about">About</Link>
           </li>
-          <li className="hover:text-orange-700">
+          <li className="">
             <Link to="#contact">Contact</Link>
           </li>
-          <li className="hover:text-orange-700">
+          <li className="">
             <Link to="#events">Events</Link>
           </li>
-          <li className="hover:text-orange-700">
+          <li className="">
             <Link
               to="/login"
               className="border border-orange-600 text-orange-600 px-4 py-2 rounded-sm"

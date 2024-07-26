@@ -36,7 +36,7 @@ const sidemenu = [
 
 const SideMenu = () => {
   const location = useLocation();
-  const [active, setActive] = useState("")
+  const [active, setActive] = useState("");
   const pathname = location.pathname;
 
   return (
